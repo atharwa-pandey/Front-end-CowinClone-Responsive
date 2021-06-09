@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+    font-family: Roboto,sans-serif;
+    margin: 0;
+}
+#navigation{
+    background-color: #001f60;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#ministry{
+    color:white;
+    font-size: 14px;
+}
+.navoptions{
+    color:white;
+    font-size: 87.5%;
+    transition: 0.1s;
+    text-align: center;
+    vertical-align: auto;
+
+}
+.navoptions:hover{
+    text-decoration:underline ;
+    cursor: pointer;
+}
+#navigation #col-md-1{
+    font-size: 12px;
+}
+#subnav .col-lg-5 img{
+    width:185px;
+    height: auto;
+    vertical-align: auto;
+    float:left;
+}
+/* #subnav .col-md-6,.col-6,.col-sm-6 img{
+    width: 125px;
+    height: auto;
+} */
+#register{
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 10px;
+    background-color: #ffc002;
+    font-weight: 600;
+    color: #001f60;
+    float: right;
+    margin: 5px;
+}
+#subnav {
+    margin: 5px;
+    box-shadow: 0px 2px 0px 0px lightgray;
+}
+#register:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#helphead{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+.help{
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 5px;
+}
+.number{
+    color: #0056b3;
+    font-weight: 600;
+}
+.number:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.helpnumbers{
+    margin-right:10px;
+    margin-left: 10px;
+}
+#banner{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#searchbar{
+    border-radius: 30px;
+    border: 1px solid gray;
+}
+.searchbutton{
+    margin:0%;
+    padding: 5%;
+    float: left;
+}
+.searchbutton2{
+    float: right;
+    clear:none;
+    padding:5%
+}
+/* #searchbar .col-md-5{
+    font-size: 14px;
+}
+#searchbar .col-sm-5{
+    font-size: 12px;
+} */
+#searchbar .col-5{
+    font-size: 14px;
+    color: #414141;
+    text-align: center;
+    font-weight: 600;
+}
+#searchbar .col-5:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#howitworks{
+    background: #fdbc00 url(/assets/images/Vectorbg.png);
+    margin-top: 15px;
+    padding-bottom:15px ;
+}
+#howithead{
+    font-size: 28px;
+    text-align: center;
+    vertical-align: auto;
+    color: #374957;
+    font-weight: 700;
+    padding-top: 2%;
+}
+.howlogoheads{
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.howtoblocks{
+    padding:1%;
+    margin:1%;
+}
+.img-fluid{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.howlogocont{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 0;
+}
+.howtobuttons{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #002060;
+    font-weight: 600;
+    padding: 10px 12px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+.howtobuttons:hover{
+    border: 2px solid #002060;
+}
+.partnerhead{
+    color: #374957;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#partnerlogo img{
+    margin-top: 15px;
+}
